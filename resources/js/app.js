@@ -26,3 +26,18 @@ document.addEventListener('DOMContentLoaded', function() {
        aboutMe.style.scale = '1';
       }, 5000);
   });
+
+  let button = document.querySelector('.about-me');
+  button.addEventListener('click', function() {
+    const svgElement = document.getElementById('my-svg');
+    svgElement.classList.add('reverse-animated');
+    svgElement.classList.remove('animated');
+    const mainContent = document.getElementById('main-content');
+    mainContent.classList.add('fade');
+
+    setTimeout(function() {
+       mainContent.classList.add('d-none');
+       let background = document.querySelector('.background')
+       background.classList.add('d-none');
+      }, 4000);
+  })

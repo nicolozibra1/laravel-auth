@@ -49,6 +49,19 @@ svg{
       stroke-width: 4;
     }
   }
+  #my-svg.reverse-animated {
+    animation: remorph 4s forwards;
+  }
+  @keyframes remorph {
+    0% {
+      transform: rotate(-160deg) scale(10);
+      stroke-width: 4;
+      }
+    100% {
+        transform: scale(0.532) rotate(0);
+        stroke-width: 38.7;
+    }
+  }
 .main-content{
     position: absolute;
     top: 50%;
@@ -58,6 +71,11 @@ svg{
     width: 100vw;
     margin-top: 25px;
     color: white;
+    opacity: 1;
+    transition: opacity 4s;
+}
+#main-content.fade{
+    opacity: 0;
 }
 .welcome{
     font-size: 7rem;
@@ -117,6 +135,7 @@ svg{
 .about-me{
     position: relative;
     margin-top: 10px;
+    border: none;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
