@@ -21,8 +21,11 @@
             <span style="--i:11">l</span>
             <span style="--i:12">i</span>
             <span style="--i:13">o</span>
-           </div>
-        <a href="" class="about-me opacity-0">about me</a>
+        </div>
+        <div class="box-button d-flex flex-column gap-5">
+            <a href="" style="--clr:#1065b4" class="about-me opacity-0"><span>about me</span><i></i></a>
+        </div>
+
     </div>
 </div>
 
