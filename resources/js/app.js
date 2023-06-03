@@ -10,4 +10,19 @@ document.addEventListener('DOMContentLoaded', function() {
     svgElement.classList.add('animated');
     const titleElement = document.getElementById('title');
     titleElement.classList.add('start');
+
+    setTimeout(function() {
+        let welcome = document.querySelector('.welcome')
+        welcome.classList.add('opaced');
+      }, 1000);
+
+    setTimeout(function() {
+        document.querySelector('.waviy').classList.add('loaded');
+      }, 2100);
+
+    setTimeout(function() {
+       const aboutMe = document.querySelector('.about-me');
+       aboutMe.classList.toggle('opacity-0');
+       aboutMe.style.scale = '1';
+      }, 5000);
   });

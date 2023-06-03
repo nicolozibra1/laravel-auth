@@ -6,8 +6,23 @@
 </div>
 <div class="main-content">
     <div id="title" class="title h-100 d-flex flex-column justify-content-center align-items-center">
-        <h1 class="welcome">Welcome</h1>
-        <h2 class="text-white">in my portfolio</h2>
+        <h1 class="welcome" id="welcome">Welcome</h1>
+        <div class="waviy" id="waviy">
+            <span style="--i:1">i</span>
+            <span style="--i:2" class="pe-3">n</span>
+            <span style="--i:3">m</span>
+            <span style="--i:4" class="pe-3">y</span>
+            <span style="--i:5">p</span>
+            <span style="--i:6">o</span>
+            <span style="--i:7">r</span>
+            <span style="--i:8">t</span>
+            <span style="--i:9">f</span>
+            <span style="--i:10">o</span>
+            <span style="--i:11">l</span>
+            <span style="--i:12">i</span>
+            <span style="--i:13">o</span>
+           </div>
+        <a href="" class="about-me opacity-0">about me</a>
     </div>
 </div>
 
