@@ -203,6 +203,13 @@ svg{
 }
 
 // ABOUT ME
+.box-animator{
+    height: calc(100vh - 50px);
+    width: 100vw;
+    background-image: url(../../public/img/ccchaos.svg);
+    background-size: cover;
+    background-position: center;
+}
 section{
     position: relative;
     display: flex;
@@ -228,4 +235,16 @@ section{
         display: inline-block;
     }
 }
+// .spiral{
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     z-index: -1;
+//     img{
+//         width: 1400px;
+//         height: 900px;
+//     }
+// }
+
 

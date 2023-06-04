@@ -2,6 +2,7 @@
 @section('content')
 
 {{-- ABOUT-ME --}}
+<div class="box-animator">
     <section class="animator opacity-1">
         <p class="text">My name is <span class="text-white">Nicolò Zibra</span>, I'm 28 years old, and I'm a <span class="text-white">Web Developer Fullstack</span> from Milan. Currently, I'm attending the Boolean school to deepen my skills in <br> web development.
 
@@ -15,4 +16,8 @@
 
             My goal is to continue developing my skills, following my specific interests in areas such as <span class="text-white">graphic design and - programming.</span> I am determined to complete my learning journey and continue evolving as a professional in the industry.</p>
     </section>
+    {{-- <div class="spiral">
+        <img src="/img/ccchaos.svg" alt="" class="">
+    </div> --}}
+</div>
 @endsection

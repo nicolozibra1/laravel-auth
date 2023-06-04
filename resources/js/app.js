@@ -76,5 +76,3 @@ animation.add({
     duration : 5000,
     delay : anime.stagger(10),
 })
-
-
