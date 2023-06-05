@@ -16,8 +16,5 @@
 
             My goal is to continue developing my skills, following my specific interests in areas such as <span class="text-white">graphic design and - programming.</span> I am determined to complete my learning journey and continue evolving as a professional in the industry.</p>
     </section>
-    {{-- <div class="spiral">
-        <img src="/img/ccchaos.svg" alt="" class="">
-    </div> --}}
 </div>
 @endsection
