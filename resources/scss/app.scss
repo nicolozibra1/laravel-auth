@@ -1,16 +1,7 @@
 @use './partials/variables' as *;
 
-
-// $fa-font-path: "../fonts/webfonts" !default;
-
-// @import "~@fortawesome/fontawesome-free/scss/fontawesome";
-// @import "~@fortawesome/fontawesome-free/scss/regular";
-// @import "~@fortawesome/fontawesome-free/scss/solid";
-// @import "~@fortawesome/fontawesome-free/scss/brands";
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-// @import '~bootstrap/scss/bootstrap';
 
 $fa-font-path: "../fonts/webfonts" !default;
 
@@ -257,16 +248,5 @@ section{
         display: inline-block;
     }
 }
-// .spiral{
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     z-index: -1;
-//     img{
-//         width: 1400px;
-//         height: 900px;
-//     }
-// }
 
 
